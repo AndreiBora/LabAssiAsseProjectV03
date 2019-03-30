@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ddeaaa6-f020-401c-8b07-2ee5f785493f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MonitorizareTemeLaboratorV03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MonitorizareTemeLaboratorV03.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudentiXML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentiXML.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/MemoryRepository/AbstractCrudRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/MemoryRepository/AbstractCrudRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Service/XMLFileService/AbstractXMLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/XMLFileService/AbstractXMLService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AddStudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddStudentTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,14 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Service/XMLFileService/AbstractXMLService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state relative-caret-position="313">
+              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
               <folding>
-                <element signature="e#919#920#0" expanded="true" />
-                <element signature="e#959#960#0" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#1080#1081#0" expanded="true" />
+                <element signature="e#1126#1127#0" expanded="true" />
+                <element signature="e#1159#1160#0" expanded="true" />
+                <element signature="e#1199#1200#0" expanded="true" />
+                <element signature="e#1225#1226#0" expanded="true" />
+                <element signature="e#1265#1266#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AddStudentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
+            <state relative-caret-position="194">
+              <caret line="97" selection-start-line="97" selection-end-line="97" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,9 +161,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/AbstractXMLRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Service/XMLFileService/AbstractXMLService.java" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/MemoryRepository/AbstractCrudRepo.java" />
         <option value="$PROJECT_DIR$/src/test/java/AddStudentTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/XMLFileService/AbstractXMLService.java" />
       </list>
     </option>
   </component>
@@ -302,7 +302,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553949008418" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553950227241" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -321,13 +321,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddStudentTest.whenGroupIsMaxIntMinusOneTestAddStudent">
-    <configuration name="AddStudentTest.whenDuplicateIdAddStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AddStudentTest">
+    <configuration name="AddStudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MonitorizareTemeLaboratorV03" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AddStudentTest" />
-      <option name="METHOD_NAME" value="whenDuplicateIdAddStudent" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -362,11 +361,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddStudentTest.whenGroupIsZeroTestAddStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AddStudentTest.whenPositiveIntegerGroupTestAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MonitorizareTemeLaboratorV03" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AddStudentTest" />
-      <option name="METHOD_NAME" value="whenGroupIsZeroTestAddStudent" />
+      <option name="METHOD_NAME" value="whenPositiveIntegerGroupTestAdd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -374,11 +373,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddStudentTest" />
+        <item itemvalue="JUnit.AddStudentTest.whenPositiveIntegerGroupTestAdd" />
         <item itemvalue="JUnit.AddStudentTest.whenGroupIsMaxIntMinusOneTestAddStudent" />
         <item itemvalue="JUnit.AddStudentTest.whenGroupIsMaxIntPLusOneTestAddStudent" />
         <item itemvalue="JUnit.AddStudentTest.whenGroupIsMaxIntTestAddStudent" />
-        <item itemvalue="JUnit.AddStudentTest.whenGroupIsZeroTestAddStudent" />
-        <item itemvalue="JUnit.AddStudentTest.whenDuplicateIdAddStudent" />
       </list>
     </recent_temporary>
   </component>
@@ -405,29 +404,11 @@
       <workItem from="1553030359025" duration="3263000" />
       <workItem from="1553070862356" duration="4575000" />
       <workItem from="1553932116910" duration="732000" />
-      <workItem from="1553936643028" duration="6380000" />
+      <workItem from="1553936643028" duration="7436000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddStudentTest - 2019.03.30 at 13h 35m 36s.xml">
-      <configuration name="AddStudentTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddStudentTest_whenPositiveIntegerGroupTestAdd - 2019.03.30 at 13h 36m 19s.xml">
-      <configuration name="AddStudentTest.whenPositiveIntegerGroupTestAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddStudentTest - 2019.03.30 at 13h 36m 30s.xml">
-      <configuration name="AddStudentTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddStudentTest_whenIndrumatorIsNullTestAddStudent - 2019.03.30 at 13h 36m 51s.xml">
-      <configuration name="AddStudentTest.whenIndrumatorIsNullTestAddStudent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddStudentTest_whenIndrumatorIsNullTestAddStudent - 2019.03.30 at 13h 39m 38s.xml">
-      <configuration name="AddStudentTest.whenIndrumatorIsNullTestAddStudent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddStudentTest_whenDuplicateIdAddStudent - 2019.03.30 at 13h 42m 01s.xml">
-      <configuration name="AddStudentTest.whenDuplicateIdAddStudent" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AddStudentTest_whenDuplicateIdAddStudent - 2019.03.30 at 14h 23m 25s.xml">
       <configuration name="AddStudentTest.whenDuplicateIdAddStudent" configurationId="JUnit" />
     </history-entry>
@@ -440,9 +421,27 @@
     <history-entry file="AddStudentTest_whenGroupIsMaxIntTestAddStudent - 2019.03.30 at 14h 26m 39s.xml">
       <configuration name="AddStudentTest.whenGroupIsMaxIntTestAddStudent" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AddStudentTest_whenGroupIsMaxIntTestAddStudent - 2019.03.30 at 14h 27m 16s.xml">
+      <configuration name="AddStudentTest.whenGroupIsMaxIntTestAddStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddStudentTest_whenGroupIsMaxIntTestAddStudent - 2019.03.30 at 14h 28m 19s.xml">
+      <configuration name="AddStudentTest.whenGroupIsMaxIntTestAddStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddStudentTest_whenGroupIsMaxIntPLusOneTestAddStudent - 2019.03.30 at 14h 29m 16s.xml">
+      <configuration name="AddStudentTest.whenGroupIsMaxIntPLusOneTestAddStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddStudentTest_whenGroupIsMaxIntPLusOneTestAddStudent - 2019.03.30 at 14h 29m 32s.xml">
+      <configuration name="AddStudentTest.whenGroupIsMaxIntPLusOneTestAddStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddStudentTest_whenGroupIsMaxIntMinusOneTestAddStudent - 2019.03.30 at 14h 29m 57s.xml">
+      <configuration name="AddStudentTest.whenGroupIsMaxIntMinusOneTestAddStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddStudentTest - 2019.03.30 at 14h 48m 51s.xml">
+      <configuration name="AddStudentTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34807000" />
+    <option name="totallyTimeSpent" value="35863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1091" y="25" width="1853" height="1055" extended-state="6" />
@@ -457,7 +456,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40604752" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31533477" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3894558" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -765,17 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/XMLFileService/AbstractXMLService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/AbstractXMLRepo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
@@ -803,10 +791,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AddStudentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
+        <state relative-caret-position="194">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/XMLFileService/AbstractXMLService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding>
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1265#1266#0" expanded="true" />
           </folding>
         </state>
       </provider>
