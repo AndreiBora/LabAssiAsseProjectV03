@@ -1,6 +1,7 @@
 package Repository.MemoryRepository;
 
 import Domain.HasId;
+import Exceptions.ServiceException;
 import Repository.Repo;
 import Validator.IValidator;
 import Exceptions.ValidatorException;
@@ -37,6 +38,9 @@ public abstract class AbstractCrudRepo<ID,E extends HasId<ID>> implements Repo<I
         }
         try{
             validator.validate(entity);
+            if(findOne(entity.getId()) != null){
+                throw new ServiceException("Duplicate id");
+            }
             return entityes.putIfAbsent(entity.getId(),entity);
         }catch(ValidatorException ex){
             throw new ValidatorException(ex.getMessage());

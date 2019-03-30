@@ -1,5 +1,6 @@
 package Service.XMLFileService;
 import Domain.*;
+import Exceptions.ServiceException;
 import Exceptions.ValidatorException;
 import Repository.XMLFileRepository.AbstractXMLRepo;
 
@@ -15,6 +16,11 @@ public abstract class AbstractXMLService<ID,E extends HasId<ID>> {
     //}
 
     public void add(String params[]) throws ValidatorException {
+        Integer id = Integer.valueOf(params[0]);
+        if(this.xmlrepo.findOne(id) != null){
+            throw new ServiceException("Duplicate id");
+        }
+
         E e=extractEntity(params);
         xmlrepo.save(e);
     }
