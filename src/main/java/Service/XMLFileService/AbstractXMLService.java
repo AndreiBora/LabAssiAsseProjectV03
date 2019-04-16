@@ -18,7 +18,7 @@ public abstract class AbstractXMLService<ID,E extends HasId<ID>> {
     public void add(String params[]) throws ValidatorException {
         try {
             Integer id = Integer.valueOf(params[0]);
-            if (this.xmlrepo.findOne(id) != null) {
+            if (this.xmlrepo.findOne(id) != null) {  // cond 1
                 throw new ServiceException("Duplicate id");
             }
         }catch (Exception e){

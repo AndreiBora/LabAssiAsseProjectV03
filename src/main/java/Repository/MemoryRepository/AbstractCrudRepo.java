@@ -33,12 +33,12 @@ public abstract class AbstractCrudRepo<ID,E extends HasId<ID>> implements Repo<I
     }
     @Override
     public E save(E entity) throws ValidatorException {
-        if(entity==null){
+        if(entity==null){  // cond 2
             throw new IllegalArgumentException("Entity can not be null!\n");
         }
         try{
             validator.validate(entity);
-            if(findOne(entity.getId()) != null){
+            if(findOne(entity.getId()) != null){  // cond 11
                 throw new ServiceException("Duplicate id");
             }
             return entityes.putIfAbsent(entity.getId(),entity);
