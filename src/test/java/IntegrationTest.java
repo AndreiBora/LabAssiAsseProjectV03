@@ -47,4 +47,40 @@ public class IntegrationTest {
         }
     }
 
+    @Test
+    public void whenCorrectAddAssignment() throws ValidatorException {
+        //given
+
+        TemaLabValidator vt = new TemaLabValidator();
+        TemaLabXMLRepo tmrepo = new TemaLabXMLRepo(vt, "TemaLaboratorXML.xml");
+        TemaLabXMLService tmsrv = new TemaLabXMLService(tmrepo);
+        //given
+        String[] params = {"1", "a", "2", "2"};
+        try {
+            tmsrv.add(params);
+            assertTrue(true);
+        } catch (Exception e) {
+            fail("It should not throw exception");
+        }
+    }
+
+    // TC_final_1
+    @Test
+    public void whenCorrectAddStudent(){
+        //given
+
+        StudentValidator vs=new StudentValidator();
+        StudentXMLRepo strepo=new StudentXMLRepo(vs,"StudentiXML.xml");
+        StudentXMLService stsrv=new StudentXMLService(strepo);
+        //given
+        String[] params={"1","Petrica","931","p@gmail.com","Linus"};
+        try {
+            stsrv.add(params);
+            assertTrue(true);
+        } catch (ValidatorException e) {
+            fail("It should not throw exception");
+        }
+    }
+
+
 }

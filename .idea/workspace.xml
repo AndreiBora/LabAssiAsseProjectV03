@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ddeaaa6-f020-401c-8b07-2ee5f785493f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IntegrationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/IntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+            <state relative-caret-position="526">
+              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,10 +154,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="841" />
-    <option name="y" value="27" />
+    <option name="x" value="673" />
+    <option name="y" value="112" />
     <option name="width" value="950" />
-    <option name="height" value="1053" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -248,7 +248,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555487648763" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555487850278" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -267,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IntegrationTest.whenCorrectIntegrationGrade">
+  <component name="RunManager" selected="JUnit.IntegrationTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="MonitorizareTemeLaboratorV03" />
@@ -284,19 +284,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddStudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MonitorizareTemeLaboratorV03" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AddStudentTest" />
+      <option name="MAIN_CLASS_NAME" value="IntegrationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in MonitorizareTemeLaboratorV03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegrationTest.whenCorrectAddStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MonitorizareTemeLaboratorV03" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="IntegrationTest" />
+      <option name="METHOD_NAME" value="whenCorrectAddStudent" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -313,11 +315,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IntegrationTest" />
+        <item itemvalue="JUnit.IntegrationTest.whenCorrectAddStudent" />
         <item itemvalue="JUnit.IntegrationTest.whenCorrectIntegrationGrade" />
         <item itemvalue="JUnit.AddAssignmentTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.AddStudentTest" />
-        <item itemvalue="JUnit.All in MonitorizareTemeLaboratorV03" />
       </list>
     </recent_temporary>
   </component>
@@ -347,7 +349,7 @@
       <workItem from="1553936643028" duration="9485000" />
       <workItem from="1553959460665" duration="35000" />
       <workItem from="1554276589300" duration="518000" />
-      <workItem from="1555486780577" duration="718000" />
+      <workItem from="1555486780577" duration="721000" />
     </task>
     <servers />
   </component>
@@ -384,7 +386,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39183000" />
+    <option name="totallyTimeSpent" value="39186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -746,8 +748,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/IntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+        <state relative-caret-position="526">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
