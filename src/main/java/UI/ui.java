@@ -233,7 +233,7 @@ public class ui {
                 }else if(opt.equals("5")){
                     this.addNota();
                 }else if(opt.equals("6")){
-                    //this.printAllNotes();
+                    this.printAllEntities(notaSrv);
                 }else if(opt.equals("7")){
                     break;
                 }else{

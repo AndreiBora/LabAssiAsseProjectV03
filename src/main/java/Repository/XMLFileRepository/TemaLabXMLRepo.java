@@ -17,7 +17,7 @@ public class TemaLabXMLRepo extends AbstractXMLRepo<Integer, TemaLab> {
     protected Element createElementFromEntity(Document document,TemaLab t) {
         Element root = document.getDocumentElement();
         Element e = document.createElement("tema");
-        e.appendChild(createElement("id", document, t.getId().toString()));
+        e.appendChild(createElement("nr", document, t.getId().toString()));
         e.appendChild(createElement("descriere", document, t.getDescriere()));
         e.appendChild(createElement("saptamanaLimita", document, Integer.toString(t.getTermenLimita())));
         e.appendChild(createElement("saptamanaPredarii", document, Integer.toString(t.getSaptammanaPredarii())));
@@ -27,7 +27,10 @@ public class TemaLabXMLRepo extends AbstractXMLRepo<Integer, TemaLab> {
 
     @Override
     protected TemaLab createEntityFromElement(Element temaLabElement){
-        String nr=temaLabElement.getAttribute("nr");
+        String nr=temaLabElement
+                .getElementsByTagName("nr")
+                .item(0)
+                .getTextContent();
         String descr=temaLabElement
                 .getElementsByTagName("descriere")
                 .item(0)
@@ -41,7 +44,7 @@ public class TemaLabXMLRepo extends AbstractXMLRepo<Integer, TemaLab> {
                 .item(0)
                 .getTextContent();
 
-        return new TemaLab(Integer.parseInt(nr),descr,Integer.parseInt(sptLim),Integer.parseInt(sptPrd));
+        return new TemaLab(Integer.parseInt(nr), descr, Integer.parseInt(sptLim), Integer.parseInt(sptPrd));
     }
 
 }

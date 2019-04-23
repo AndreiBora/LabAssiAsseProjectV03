@@ -37,6 +37,7 @@ public abstract class AbstractXMLRepo<ID,E extends HasId<ID>> extends AbstractCr
 
     private void loadFromFile() {
         try {
+            System.out.println("in");
             Document document = DocumentBuilderFactory
                     .newInstance()
                     .newDocumentBuilder()
@@ -52,7 +53,7 @@ public abstract class AbstractXMLRepo<ID,E extends HasId<ID>> extends AbstractCr
                 }
             }
         }catch (Exception ex){
-
+            System.out.println(ex.getMessage());
         }
     }
 
