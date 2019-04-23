@@ -48,6 +48,29 @@ public class IntegrationTest {
     }
 
     @Test
+    public void whenCorrectIntegrationAssignment(){
+        //given
+
+        StudentValidator vs=new StudentValidator();
+        StudentXMLRepo strepo=new StudentXMLRepo(vs,"StudentiXML.xml");
+        StudentXMLService stsrv=new StudentXMLService(strepo);
+
+        TemaLabValidator vt = new TemaLabValidator();
+        TemaLabXMLRepo tmrepo = new TemaLabXMLRepo(vt, "TemaLaboratorXML.xml");
+        TemaLabXMLService tmsrv = new TemaLabXMLService(tmrepo);
+
+        String[] student={"1","Petrica","931","p@gmail.com","Linus"};
+        String[] assignment = {"1", "a", "2", "2"};
+        try {
+            stsrv.add(student);
+            tmsrv.add(assignment);
+            assertTrue(true);
+        } catch (ValidatorException e) {
+            fail("It should not throw exception");
+        }
+    }
+
+    @Test
     public void whenCorrectAddAssignment() throws ValidatorException {
         //given
 
@@ -76,6 +99,23 @@ public class IntegrationTest {
         String[] params={"1","Petrica","931","p@gmail.com","Linus"};
         try {
             stsrv.add(params);
+            assertTrue(true);
+        } catch (ValidatorException e) {
+            fail("It should not throw exception");
+        }
+    }
+
+    @Test
+    public void whenCorrectAddGrade(){
+        //given
+
+        NotaValidator vn=new NotaValidator();
+        NotaXMLRepo ntrepo=new NotaXMLRepo(vn,"NotaXML.xml");
+        NotaXMLService ntsrv=new NotaXMLService(ntrepo);
+        //given
+        String[] grade = {"100","100","100","10","2019-01-01T12:00:00"};
+        try {
+            ntsrv.add(grade);
             assertTrue(true);
         } catch (ValidatorException e) {
             fail("It should not throw exception");

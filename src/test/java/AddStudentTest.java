@@ -26,6 +26,8 @@ public class AddStudentTest {
         } catch (ValidatorException e) {
             fail("It should not throw exception");
         }
+
+        strepo.delete("1");
     }
 
     // TC_final_2
@@ -186,7 +188,14 @@ public class AddStudentTest {
         String[] params2={"1","Dorel","931","dorel@gmail.com","Linus"};
 
         stsrv.add(params1);
-        stsrv.add(params2);
+        try {
+            stsrv.add(params2);
+        }
+        catch (ServiceException e) {
+            strepo.delete("1");
+            throw e;
+        }
+
     }
 
     // TC_final_14
@@ -217,6 +226,10 @@ public class AddStudentTest {
         String[] params={"1","Petrica",String.valueOf(Integer.MAX_VALUE),"p@gmail.com","Linus"};
 
         stsrv.add(params);
+        assertTrue(true);
+
+        strepo.delete("1");
+
     }
 
     // TC_final_18
@@ -247,6 +260,9 @@ public class AddStudentTest {
         String[] params={"1","Petrica",String.valueOf(Integer.MAX_VALUE-1),"p@gmail.com","Linus"};
 
         stsrv.add(params);
+        assertTrue(true);
+
+        strepo.delete("1");
     }
 
     // TC_final_19

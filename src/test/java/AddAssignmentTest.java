@@ -26,6 +26,8 @@ public class AddAssignmentTest {
         } catch (Exception e) {
             fail("It should not throw exception");
         }
+
+        tmrepo.delete(1);
     }
 
     @Test(expected = ValidatorException.class)
@@ -67,7 +69,13 @@ public class AddAssignmentTest {
 
         tmsrv.add(params);
 
-        tmsrv.add(params);
+        try {
+            tmsrv.add(params);
+        }
+        catch (ServiceException e) {
+            tmrepo.delete(1);
+            throw e;
+        }
     }
 
     @Test(expected = NumberFormatException.class)
@@ -162,7 +170,13 @@ public class AddAssignmentTest {
 
         tmsrv.add(params);
 
-        tmrepo.save(new TemaLab(Integer.parseInt(params[0]),params[1],Integer.parseInt(params[2]),Integer.parseInt(params[3])));
+        try {
+            tmrepo.save(new TemaLab(Integer.parseInt(params[0]), params[1], Integer.parseInt(params[2]), Integer.parseInt(params[3])));
+        }
+        catch (ServiceException e) {
+            tmrepo.delete(1);
+            throw e;
+        }
     }
 
     @Test(expected = IllegalArgumentException.class)
