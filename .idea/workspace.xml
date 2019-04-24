@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ddeaaa6-f020-401c-8b07-2ee5f785493f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotaXML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NotaXML.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentiXML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentiXML.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TemaLaboratorXML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TemaLaboratorXML.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/AbstractXMLRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/AbstractXMLRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AddAssignmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddAssignmentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AddStudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddStudentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IntegrationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/IntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="210">
+              <caret line="80" column="45" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AddAssignmentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+            <state relative-caret-position="1050">
+              <caret line="74" column="36" lean-forward="true" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,6 +94,7 @@
       <find>fail</find>
       <find>true</find>
       <find>tmLbSrv</find>
+      <find>For input string</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,10 +117,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/StudentXMLRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/NotaXMLRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/UI/ui.java" />
-        <option value="$PROJECT_DIR$/src/test/java/IntegrationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/AbstractXMLRepo.java" />
         <option value="$PROJECT_DIR$/src/test/java/AddStudentTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/AddAssignmentTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IntegrationTest.java" />
       </list>
     </option>
   </component>
@@ -136,10 +132,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="673" />
-    <option name="y" value="112" />
-    <option name="width" value="950" />
-    <option name="height" value="789" />
+    <option name="y" value="24" />
+    <option name="width" value="960" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -233,7 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddStudentTest">
+  <component name="RunManager" selected="JUnit.All in MonitorizareTemeLaboratorV03">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="MonitorizareTemeLaboratorV03" />
@@ -259,6 +254,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in MonitorizareTemeLaboratorV03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MonitorizareTemeLaboratorV03" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MonitorizareTemeLaboratorV03" />
       <option name="PACKAGE_NAME" value="" />
@@ -268,23 +271,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegrationTest.whenCorrectAddStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MonitorizareTemeLaboratorV03" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IntegrationTest" />
-      <option name="METHOD_NAME" value="whenCorrectAddStudent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AddStudentTest" />
-        <item itemvalue="JUnit.AddAssignmentTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.All in MonitorizareTemeLaboratorV03" />
         <item itemvalue="JUnit.IntegrationTest" />
-        <item itemvalue="JUnit.IntegrationTest.whenCorrectAddStudent" />
+        <item itemvalue="JUnit.AddAssignmentTest" />
+        <item itemvalue="JUnit.AddStudentTest" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -319,42 +312,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddStudentTest - 2019.04.23 at 21h 53m 45s.xml">
-      <configuration name="AddStudentTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddStudentTest - 2019.04.23 at 21h 53m 50s.xml">
-      <configuration name="AddStudentTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddAssignmentTest - 2019.04.23 at 21h 53m 56s.xml">
+    <history-entry file="AddAssignmentTest - 2019.04.23 at 22h 01m 14s.xml">
       <configuration name="AddAssignmentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddAssignmentTest - 2019.04.23 at 21h 54m 04s.xml">
+    <history-entry file="AddAssignmentTest - 2019.04.23 at 22h 01m 17s.xml">
       <configuration name="AddAssignmentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddAssignmentTest - 2019.04.23 at 21h 54m 43s.xml">
-      <configuration name="AddAssignmentTest" configurationId="JUnit" />
+    <history-entry file="IntegrationTest - 2019.04.23 at 22h 02m 07s.xml">
+      <configuration name="IntegrationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddAssignmentTest - 2019.04.23 at 21h 54m 59s.xml">
-      <configuration name="AddAssignmentTest" configurationId="JUnit" />
+    <history-entry file="IntegrationTest - 2019.04.23 at 22h 02m 11s.xml">
+      <configuration name="IntegrationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddAssignmentTest - 2019.04.23 at 21h 55m 38s.xml">
-      <configuration name="AddAssignmentTest" configurationId="JUnit" />
+    <history-entry file="All_in_MonitorizareTemeLaboratorV03 - 2019.04.23 at 22h 02m 15s.xml">
+      <configuration name="All in MonitorizareTemeLaboratorV03" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddAssignmentTest - 2019.04.23 at 21h 55m 41s.xml">
-      <configuration name="AddAssignmentTest" configurationId="JUnit" />
+    <history-entry file="All_in_MonitorizareTemeLaboratorV03 - 2019.04.23 at 22h 02m 20s.xml">
+      <configuration name="All in MonitorizareTemeLaboratorV03" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddStudentTest - 2019.04.23 at 21h 55m 46s.xml">
-      <configuration name="AddStudentTest" configurationId="JUnit" />
+    <history-entry file="All_in_MonitorizareTemeLaboratorV03 - 2019.04.24 at 11h 08m 18s.xml">
+      <configuration name="All in MonitorizareTemeLaboratorV03" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddStudentTest - 2019.04.23 at 21h 55m 50s.xml">
-      <configuration name="AddStudentTest" configurationId="JUnit" />
+    <history-entry file="All_in_MonitorizareTemeLaboratorV03 - 2019.04.24 at 11h 08m 24s.xml">
+      <configuration name="All in MonitorizareTemeLaboratorV03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_MonitorizareTemeLaboratorV03 - 2019.04.24 at 11h 11m 30s.xml">
+      <configuration name="All in MonitorizareTemeLaboratorV03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_MonitorizareTemeLaboratorV03 - 2019.04.24 at 11h 12m 13s.xml">
+      <configuration name="All in MonitorizareTemeLaboratorV03" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="39186000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-4" width="1922" height="1085" extended-state="6" />
+    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20384204" />
@@ -667,16 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/IntegrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/StudentXMLRepo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
@@ -716,8 +699,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AddAssignmentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+        <state relative-caret-position="1050">
+          <caret line="74" column="36" lean-forward="true" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="80" column="45" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

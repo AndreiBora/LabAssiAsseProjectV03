@@ -45,6 +45,10 @@ public class IntegrationTest {
         } catch (ValidatorException e) {
             fail("It should not throw exception");
         }
+
+        strepo.delete("1");
+        tmrepo.delete(1);
+        ntrepo.delete(1);
     }
 
     @Test
@@ -68,6 +72,29 @@ public class IntegrationTest {
         } catch (ValidatorException e) {
             fail("It should not throw exception");
         }
+
+        strepo.delete("1");
+        tmrepo.delete(1);
+    }
+
+    @Test
+    public void whenCorrectIntegrationStudent(){
+        //given
+
+        StudentValidator vs=new StudentValidator();
+        StudentXMLRepo strepo=new StudentXMLRepo(vs,"StudentiXML.xml");
+        StudentXMLService stsrv=new StudentXMLService(strepo);
+
+
+        String[] student={"1","n1","1","e1","p1"};
+        try {
+            stsrv.add(student);
+            assertTrue(true);
+        } catch (ValidatorException e) {
+            fail("It should not throw exception");
+        }
+
+        strepo.delete("1");
     }
 
     @Test
@@ -85,6 +112,8 @@ public class IntegrationTest {
         } catch (Exception e) {
             fail("It should not throw exception");
         }
+
+        tmrepo.delete(1);
     }
 
     // TC_final_1
@@ -103,6 +132,8 @@ public class IntegrationTest {
         } catch (ValidatorException e) {
             fail("It should not throw exception");
         }
+
+        strepo.delete("1");
     }
 
     @Test
@@ -120,6 +151,8 @@ public class IntegrationTest {
         } catch (ValidatorException e) {
             fail("It should not throw exception");
         }
+
+        ntrepo.delete(100);
     }
 
 
